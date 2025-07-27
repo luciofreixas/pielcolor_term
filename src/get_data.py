@@ -1,8 +1,8 @@
 import pandas as pd
 
 # === CARGAR EXCELS ===
-ventas_excel = "/Users/luciofreixas/Downloads/VENTASPIELCOLOR.xlsx"
-stock_excel  = "/Users/luciofreixas/Downloads/STOCKPIELCOLOR.xlsx"
+ventas_excel = "/Users/luciofreixas/Desktop/gestion_stoc_pielcolor/pielcolor-term/datos/ventas.xlsx"
+stock_excel  ="/Users/luciofreixas/Desktop/gestion_stoc_pielcolor/pielcolor-term/datos/stock.xlsx"
 
 # === PROCESAR VENTAS ===
 df_ventas_raw = pd.read_excel(ventas_excel, header=None, skiprows=3)
